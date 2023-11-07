@@ -1,0 +1,11 @@
+/Users/ppoirier/Documents/smooth/smooth/smooth_bot/target/debug/deps/askama-53c95e017980dc45.rmeta: /Users/ppoirier/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/lib.rs /Users/ppoirier/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/error.rs /Users/ppoirier/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/filters/mod.rs /Users/ppoirier/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/filters/json.rs /Users/ppoirier/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/helpers.rs
+
+/Users/ppoirier/Documents/smooth/smooth/smooth_bot/target/debug/deps/libaskama-53c95e017980dc45.rlib: /Users/ppoirier/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/lib.rs /Users/ppoirier/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/error.rs /Users/ppoirier/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/filters/mod.rs /Users/ppoirier/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/filters/json.rs /Users/ppoirier/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/helpers.rs
+
+/Users/ppoirier/Documents/smooth/smooth/smooth_bot/target/debug/deps/askama-53c95e017980dc45.d: /Users/ppoirier/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/lib.rs /Users/ppoirier/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/error.rs /Users/ppoirier/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/filters/mod.rs /Users/ppoirier/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/filters/json.rs /Users/ppoirier/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/helpers.rs
+
+/Users/ppoirier/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/lib.rs:
+/Users/ppoirier/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/error.rs:
+/Users/ppoirier/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/filters/mod.rs:
+/Users/ppoirier/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/filters/json.rs:
+/Users/ppoirier/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/helpers.rs:
