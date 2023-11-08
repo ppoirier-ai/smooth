@@ -7,3 +7,13 @@ edition = "2021"
 
 [dependencies]
 plotly = "0.8.4"
+rand = "0.8.5"
+
+[lib]
+name = "boundingcurve"
+path = "lib/src/main.rs"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
