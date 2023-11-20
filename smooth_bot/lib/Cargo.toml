@@ -9,4 +9,4 @@ edition = "2021"
 
 [lib]
 name = "boundingcurve"
-path = "src/lib.rs"
+path = "src/main.rs"
