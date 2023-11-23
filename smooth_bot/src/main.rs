@@ -9,9 +9,23 @@ use std::{thread, time};
 fn main() {
 
     println!("testing random number is {}", random_swap::swap());
-    let boundingcurve = boundingcurve::bd::new(1000.0, 500.0, (1000.0 * 500.0) as i128); // initialize a new bounding curve with X = 1000.0, Y = 500.0
+    let mut boundingcurve = boundingcurve::bd::new(1000.0, 500.0, (1000.0 * 500.0) as i128, 100000.0); // initialize a new bounding curve with X = 1000.0, Y = 500.0
+    println!("INITIAL BOUNDING CURVE CREATED");
+    println!("$USDT = {}, $SMT = {}, and K = {}, collateral = {}, and reserve = {}", boundingcurve.X, boundingcurve.Y, boundingcurve.K, boundingcurve.collateral, boundingcurve.reserve);
+    println!("Price of $SMT is ${}\n", boundingcurve.price_of_Y());
 
-    println!("X = {} and Y = {}", boundingcurve.X, boundingcurve.Y);
+    println!("---------------------------------------------------------------");
+    println!("Investor A will be swapping $500 worth of $USDT to buy $SMT");
+    boundingcurve.swap_X_Y(500.0); // investor A BUY $500.00 worth of $SMT
+
+    println!("$USDT = {}, $SMT = {}, and K = {}, collateral = {}, and reserve = {}", boundingcurve.X, boundingcurve.Y, boundingcurve.K, boundingcurve.collateral, boundingcurve.reserve);
+    println!("Price of $SMT is ${}\n", boundingcurve.price_of_Y());
+
+    println!("---------------------------------------------------------------");
+    println!("Investor A will be swapping 100 $SMT back to $USDT");
+    boundingcurve.swap_Y_X(100.0); // investor A sell 100.00 of $SMT
+    println!("$USDT = {}, $SMT = {}, and K = {}, collateral = {}, and reserve = {}", boundingcurve.X, boundingcurve.Y, boundingcurve.K, boundingcurve.collateral, boundingcurve.reserve);
+    println!("Price of $SMT is ${}\n", boundingcurve.price_of_Y());
 
     //let layout = Layout::new()
     //    .title(Title::new("Price Chart Protected with MMaaS"))
